@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C89900DF2C8B5AAC00AFEC4B /* DDModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C89900DE2C8B5AAC00AFEC4B /* DDModel.mlmodel */; };
+		C89900E12C8B5ABC00AFEC4B /* FDModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C89900E02C8B5ABC00AFEC4B /* FDModel.mlmodel */; };
+		C89900E32C8B6A0700AFEC4B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89900E22C8B6A0700AFEC4B /* CameraView.swift */; };
+		C89900E62C8B6E1D00AFEC4B /* AlertBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89900E52C8B6E1D00AFEC4B /* AlertBoardView.swift */; };
+		C89900E82C8B73B100AFEC4B /* Vechiclewise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89900E72C8B73B100AFEC4B /* Vechiclewise.swift */; };
+		C8E5DDB52C8B01A5009403F3 /* NapixApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5DDB42C8B01A5009403F3 /* NapixApp.swift */; };
+		C8E5DDB92C8B01A6009403F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E5DDB82C8B01A6009403F3 /* Assets.xcassets */; };
+		C8E5DDBC2C8B01A6009403F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8E5DDBB2C8B01A6009403F3 /* Preview Assets.xcassets */; };
+		C8E5DDCA2C8B0565009403F3 /* DriverMainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5DDC92C8B0565009403F3 /* DriverMainTabView.swift */; };
+		C8E5DDCC2C8B057E009403F3 /* LogisticMainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5DDCB2C8B057E009403F3 /* LogisticMainTabView.swift */; };
+		C8E5DDCE2C8B06CD009403F3 /* monitorMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5DDCD2C8B06CD009403F3 /* monitorMeView.swift */; };
+		C8E5DDD02C8B0D1D009403F3 /* CameraMonitoringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8E5DDCF2C8B0D1D009403F3 /* CameraMonitoringView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C89900DA2C8B561F00AFEC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C89900DE2C8B5AAC00AFEC4B /* DDModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DDModel.mlmodel; path = "../../NapIx_ThoseItGuys-main/vehicleWise/DDModel.mlmodel"; sourceTree = "<group>"; };
+		C89900E02C8B5ABC00AFEC4B /* FDModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = FDModel.mlmodel; path = "../../NapIx_ThoseItGuys-main/vehicleWise/FDModel.mlmodel"; sourceTree = "<group>"; };
+		C89900E22C8B6A0700AFEC4B /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		C89900E52C8B6E1D00AFEC4B /* AlertBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBoardView.swift; sourceTree = "<group>"; };
+		C89900E72C8B73B100AFEC4B /* Vechiclewise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vechiclewise.swift; sourceTree = "<group>"; };
+		C8E5DDB12C8B01A5009403F3 /* Napix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Napix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E5DDB42C8B01A5009403F3 /* NapixApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NapixApp.swift; sourceTree = "<group>"; };
+		C8E5DDB82C8B01A6009403F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8E5DDBB2C8B01A6009403F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8E5DDC92C8B0565009403F3 /* DriverMainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverMainTabView.swift; sourceTree = "<group>"; };
+		C8E5DDCB2C8B057E009403F3 /* LogisticMainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogisticMainTabView.swift; sourceTree = "<group>"; };
+		C8E5DDCD2C8B06CD009403F3 /* monitorMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = monitorMeView.swift; sourceTree = "<group>"; };
+		C8E5DDCF2C8B0D1D009403F3 /* CameraMonitoringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraMonitoringView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8E5DDAE2C8B01A5009403F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C89900E42C8B6DE500AFEC4B /* AlertBoardTabView */ = {
+			isa = PBXGroup;
+			children = (
+				C89900E52C8B6E1D00AFEC4B /* AlertBoardView.swift */,
+				C89900E72C8B73B100AFEC4B /* Vechiclewise.swift */,
+			);
+			path = AlertBoardTabView;
+			sourceTree = "<group>";
+		};
+		C8E5DDA82C8B01A5009403F3 = {
+			isa = PBXGroup;
+			children = (
+				C8E5DDB32C8B01A5009403F3 /* Napix */,
+				C8E5DDB22C8B01A5009403F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C8E5DDB22C8B01A5009403F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8E5DDB12C8B01A5009403F3 /* Napix.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8E5DDB32C8B01A5009403F3 /* Napix */ = {
+			isa = PBXGroup;
+			children = (
+				C89900DA2C8B561F00AFEC4B /* Info.plist */,
+				C8E5DDC62C8B04F8009403F3 /* Drivers Screens */,
+				C8E5DDC22C8B048A009403F3 /* Logistic Screens */,
+				C8E5DDB42C8B01A5009403F3 /* NapixApp.swift */,
+				C8E5DDB82C8B01A6009403F3 /* Assets.xcassets */,
+				C8E5DDBA2C8B01A6009403F3 /* Preview Content */,
+				C8E5DDC92C8B0565009403F3 /* DriverMainTabView.swift */,
+				C8E5DDCB2C8B057E009403F3 /* LogisticMainTabView.swift */,
+				C89900DE2C8B5AAC00AFEC4B /* DDModel.mlmodel */,
+				C89900E02C8B5ABC00AFEC4B /* FDModel.mlmodel */,
+			);
+			path = Napix;
+			sourceTree = "<group>";
+		};
+		C8E5DDBA2C8B01A6009403F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8E5DDBB2C8B01A6009403F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8E5DDC22C8B048A009403F3 /* Logistic Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C89900E42C8B6DE500AFEC4B /* AlertBoardTabView */,
+				C8E5DDC52C8B04EA009403F3 /* Profile */,
+				C8E5DDC42C8B04C1009403F3 /* Vehicle Wise Tab View */,
+				C8E5DDC32C8B04A0009403F3 /* Alert Board Tab View */,
+			);
+			path = "Logistic Screens";
+			sourceTree = "<group>";
+		};
+		C8E5DDC32C8B04A0009403F3 /* Alert Board Tab View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Alert Board Tab View";
+			sourceTree = "<group>";
+		};
+		C8E5DDC42C8B04C1009403F3 /* Vehicle Wise Tab View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Vehicle Wise Tab View";
+			sourceTree = "<group>";
+		};
+		C8E5DDC52C8B04EA009403F3 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C8E5DDC62C8B04F8009403F3 /* Drivers Screens */ = {
+			isa = PBXGroup;
+			children = (
+				C8E5DDC82C8B0515009403F3 /* Profile Tab View */,
+				C8E5DDC72C8B050B009403F3 /* Home Tab View */,
+			);
+			path = "Drivers Screens";
+			sourceTree = "<group>";
+		};
+		C8E5DDC72C8B050B009403F3 /* Home Tab View */ = {
+			isa = PBXGroup;
+			children = (
+				C8E5DDCD2C8B06CD009403F3 /* monitorMeView.swift */,
+				C8E5DDCF2C8B0D1D009403F3 /* CameraMonitoringView.swift */,
+				C89900E22C8B6A0700AFEC4B /* CameraView.swift */,
+			);
+			path = "Home Tab View";
+			sourceTree = "<group>";
+		};
+		C8E5DDC82C8B0515009403F3 /* Profile Tab View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile Tab View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8E5DDB02C8B01A5009403F3 /* Napix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8E5DDBF2C8B01A6009403F3 /* Build configuration list for PBXNativeTarget "Napix" */;
+			buildPhases = (
+				C8E5DDAD2C8B01A5009403F3 /* Sources */,
+				C8E5DDAE2C8B01A5009403F3 /* Frameworks */,
+				C8E5DDAF2C8B01A5009403F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Napix;
+			productName = Napix;
+			productReference = C8E5DDB12C8B01A5009403F3 /* Napix.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8E5DDA92C8B01A5009403F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					C8E5DDB02C8B01A5009403F3 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = C8E5DDAC2C8B01A5009403F3 /* Build configuration list for PBXProject "Napix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C8E5DDA82C8B01A5009403F3;
+			packageReferences = (
+				C89900D32C8B509B00AFEC4B /* XCRemoteSwiftPackageReference "Gifu" */,
+			);
+			productRefGroup = C8E5DDB22C8B01A5009403F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8E5DDB02C8B01A5009403F3 /* Napix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8E5DDAF2C8B01A5009403F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E5DDBC2C8B01A6009403F3 /* Preview Assets.xcassets in Resources */,
+				C8E5DDB92C8B01A6009403F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8E5DDAD2C8B01A5009403F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8E5DDCC2C8B057E009403F3 /* LogisticMainTabView.swift in Sources */,
+				C8E5DDCA2C8B0565009403F3 /* DriverMainTabView.swift in Sources */,
+				C89900E12C8B5ABC00AFEC4B /* FDModel.mlmodel in Sources */,
+				C89900DF2C8B5AAC00AFEC4B /* DDModel.mlmodel in Sources */,
+				C89900E82C8B73B100AFEC4B /* Vechiclewise.swift in Sources */,
+				C8E5DDB52C8B01A5009403F3 /* NapixApp.swift in Sources */,
+				C89900E62C8B6E1D00AFEC4B /* AlertBoardView.swift in Sources */,
+				C8E5DDCE2C8B06CD009403F3 /* monitorMeView.swift in Sources */,
+				C8E5DDD02C8B0D1D009403F3 /* CameraMonitoringView.swift in Sources */,
+				C89900E32C8B6A0700AFEC4B /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C8E5DDBD2C8B01A6009403F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8E5DDBE2C8B01A6009403F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C8E5DDC02C8B01A6009403F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Napix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Napix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pandeyji.com.Napix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C8E5DDC12C8B01A6009403F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Napix/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Napix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = pandeyji.com.Napix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8E5DDAC2C8B01A5009403F3 /* Build configuration list for PBXProject "Napix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E5DDBD2C8B01A6009403F3 /* Debug */,
+				C8E5DDBE2C8B01A6009403F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8E5DDBF2C8B01A6009403F3 /* Build configuration list for PBXNativeTarget "Napix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8E5DDC02C8B01A6009403F3 /* Debug */,
+				C8E5DDC12C8B01A6009403F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C89900D32C8B509B00AFEC4B /* XCRemoteSwiftPackageReference "Gifu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kaishin/Gifu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+	};
+	rootObject = C8E5DDA92C8B01A5009403F3 /* Project object */;
+}
