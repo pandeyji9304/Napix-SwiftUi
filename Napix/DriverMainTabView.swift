@@ -5,15 +5,15 @@ struct DriverMainTabView: View {
     var body: some View {
         TabView {
                     // First tab
-            MonitorMeView()
+            ContentView()
                         .tabItem {
-                            Label("Home", systemImage: "house")
+                            Image(systemName: "house")
                         }
 
                     // Second tab
-                    SettingsView()
+            DriverProfileView()
                         .tabItem {
-                            Label("Settings", systemImage: "gear")
+                            Image(systemName: "house")
                         }
                 }
     }

@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C844DF0F2C9397F200188258 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF0E2C9397F200188258 /* ProfileView.swift */; };
+		C844DF112C939B3A00188258 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF102C939B3A00188258 /* Profile.swift */; };
+		C844DF142C958ABB00188258 /* LogsticsHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF132C958ABA00188258 /* LogsticsHead.swift */; };
+		C844DF172C958B0D00188258 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF162C958B0D00188258 /* Network.swift */; };
+		C844DF402C95D3F500188258 /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF3F2C95D3F500188258 /* SigninViewModel.swift */; };
+		C844DF422C95D41F00188258 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF412C95D41F00188258 /* SigninView.swift */; };
+		C844DF442C95D4A500188258 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF432C95D4A500188258 /* SignupView.swift */; };
+		C844DF462C95E29B00188258 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF452C95E29B00188258 /* Vehicle.swift */; };
+		C844DF482C95E66C00188258 /* ProfileviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF472C95E66C00188258 /* ProfileviewModel.swift */; };
+		C844DF4A2C97056D00188258 /* DriverprofileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF492C97056D00188258 /* DriverprofileViewModel.swift */; };
+		C844DF4E2C97EC5D00188258 /* AlertBoardViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF4D2C97EC5D00188258 /* AlertBoardViewModal.swift */; };
+		C844DF502C9814DF00188258 /* AddAlertViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF4F2C9814DF00188258 /* AddAlertViewModal.swift */; };
+		C844DF5C2C9B5CE900188258 /* SocketIO in Frameworks */ = {isa = PBXBuildFile; productRef = C844DF5B2C9B5CE900188258 /* SocketIO */; };
+		C844DF5E2C9B62E000188258 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF5D2C9B62E000188258 /* Socket.swift */; };
+		C844DF602C9B631F00188258 /* Viewmodel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF5F2C9B631F00188258 /* Viewmodel.swift */; };
+		C844DF622C9B636B00188258 /* Scoketview.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF612C9B636B00188258 /* Scoketview.swift */; };
+		C844DF672C9C5E7E00188258 /* Messagesviewmodal.swift in Sources */ = {isa = PBXBuildFile; fileRef = C844DF662C9C5E7E00188258 /* Messagesviewmodal.swift */; };
 		C89900DF2C8B5AAC00AFEC4B /* DDModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C89900DE2C8B5AAC00AFEC4B /* DDModel.mlmodel */; };
 		C89900E12C8B5ABC00AFEC4B /* FDModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C89900E02C8B5ABC00AFEC4B /* FDModel.mlmodel */; };
 		C89900E32C8B6A0700AFEC4B /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89900E22C8B6A0700AFEC4B /* CameraView.swift */; };
@@ -22,6 +39,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C844DF0E2C9397F200188258 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		C844DF102C939B3A00188258 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		C844DF132C958ABA00188258 /* LogsticsHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogsticsHead.swift; sourceTree = "<group>"; };
+		C844DF162C958B0D00188258 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		C844DF3F2C95D3F500188258 /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
+		C844DF412C95D41F00188258 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		C844DF432C95D4A500188258 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		C844DF452C95E29B00188258 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		C844DF472C95E66C00188258 /* ProfileviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileviewModel.swift; sourceTree = "<group>"; };
+		C844DF492C97056D00188258 /* DriverprofileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverprofileViewModel.swift; sourceTree = "<group>"; };
+		C844DF4D2C97EC5D00188258 /* AlertBoardViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertBoardViewModal.swift; sourceTree = "<group>"; };
+		C844DF4F2C9814DF00188258 /* AddAlertViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewModal.swift; sourceTree = "<group>"; };
+		C844DF5D2C9B62E000188258 /* Socket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Socket.swift; sourceTree = "<group>"; };
+		C844DF5F2C9B631F00188258 /* Viewmodel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viewmodel.swift; sourceTree = "<group>"; };
+		C844DF612C9B636B00188258 /* Scoketview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoketview.swift; sourceTree = "<group>"; };
+		C844DF662C9C5E7E00188258 /* Messagesviewmodal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messagesviewmodal.swift; sourceTree = "<group>"; };
 		C89900DA2C8B561F00AFEC4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C89900DE2C8B5AAC00AFEC4B /* DDModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = DDModel.mlmodel; path = "../../NapIx_ThoseItGuys-main/vehicleWise/DDModel.mlmodel"; sourceTree = "<group>"; };
 		C89900E02C8B5ABC00AFEC4B /* FDModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = FDModel.mlmodel; path = "../../NapIx_ThoseItGuys-main/vehicleWise/FDModel.mlmodel"; sourceTree = "<group>"; };
@@ -43,19 +76,76 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C844DF5C2C9B5CE900188258 /* SocketIO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C89900E42C8B6DE500AFEC4B /* AlertBoardTabView */ = {
+		C844DF152C958AD400188258 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C844DF162C958B0D00188258 /* Network.swift */,
+				C844DF5D2C9B62E000188258 /* Socket.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C844DF3A2C95D25D00188258 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C844DF132C958ABA00188258 /* LogsticsHead.swift */,
+				C844DF452C95E29B00188258 /* Vehicle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C844DF3B2C95D2D200188258 /* AlertBoard */ = {
 			isa = PBXGroup;
 			children = (
 				C89900E52C8B6E1D00AFEC4B /* AlertBoardView.swift */,
+				C844DF4D2C97EC5D00188258 /* AlertBoardViewModal.swift */,
+				C844DF662C9C5E7E00188258 /* Messagesviewmodal.swift */,
+				C844DF4F2C9814DF00188258 /* AddAlertViewModal.swift */,
+			);
+			path = AlertBoard;
+			sourceTree = "<group>";
+		};
+		C844DF3C2C95D2E600188258 /* VehicleWise */ = {
+			isa = PBXGroup;
+			children = (
 				C89900E72C8B73B100AFEC4B /* Vechiclewise.swift */,
 			);
-			path = AlertBoardTabView;
+			path = VehicleWise;
+			sourceTree = "<group>";
+		};
+		C844DF3D2C95D2F600188258 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				C844DF0E2C9397F200188258 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		C844DF3E2C95D39300188258 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C844DF412C95D41F00188258 /* SigninView.swift */,
+				C844DF432C95D4A500188258 /* SignupView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C89900E42C8B6DE500AFEC4B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C844DF3F2C95D3F500188258 /* SigninViewModel.swift */,
+				C844DF5F2C9B631F00188258 /* Viewmodel.swift */,
+				C844DF612C9B636B00188258 /* Scoketview.swift */,
+				C844DF472C95E66C00188258 /* ProfileviewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		C8E5DDA82C8B01A5009403F3 = {
@@ -77,9 +167,11 @@
 		C8E5DDB32C8B01A5009403F3 /* Napix */ = {
 			isa = PBXGroup;
 			children = (
+				C844DF3E2C95D39300188258 /* Common */,
+				C844DF152C958AD400188258 /* Network */,
 				C89900DA2C8B561F00AFEC4B /* Info.plist */,
 				C8E5DDC62C8B04F8009403F3 /* Drivers Screens */,
-				C8E5DDC22C8B048A009403F3 /* Logistic Screens */,
+				C8E5DDC22C8B048A009403F3 /* Logistic  */,
 				C8E5DDB42C8B01A5009403F3 /* NapixApp.swift */,
 				C8E5DDB82C8B01A6009403F3 /* Assets.xcassets */,
 				C8E5DDBA2C8B01A6009403F3 /* Preview Content */,
@@ -99,36 +191,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C8E5DDC22C8B048A009403F3 /* Logistic Screens */ = {
+		C8E5DDC22C8B048A009403F3 /* Logistic  */ = {
 			isa = PBXGroup;
 			children = (
-				C89900E42C8B6DE500AFEC4B /* AlertBoardTabView */,
-				C8E5DDC52C8B04EA009403F3 /* Profile */,
-				C8E5DDC42C8B04C1009403F3 /* Vehicle Wise Tab View */,
-				C8E5DDC32C8B04A0009403F3 /* Alert Board Tab View */,
+				C844DF3A2C95D25D00188258 /* Model */,
+				C89900E42C8B6DE500AFEC4B /* ViewModel */,
+				C8E5DDC52C8B04EA009403F3 /* View */,
 			);
-			path = "Logistic Screens";
+			path = "Logistic ";
 			sourceTree = "<group>";
 		};
-		C8E5DDC32C8B04A0009403F3 /* Alert Board Tab View */ = {
+		C8E5DDC52C8B04EA009403F3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C844DF3D2C95D2F600188258 /* Profile */,
+				C844DF3C2C95D2E600188258 /* VehicleWise */,
+				C844DF3B2C95D2D200188258 /* AlertBoard */,
 			);
-			path = "Alert Board Tab View";
-			sourceTree = "<group>";
-		};
-		C8E5DDC42C8B04C1009403F3 /* Vehicle Wise Tab View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Vehicle Wise Tab View";
-			sourceTree = "<group>";
-		};
-		C8E5DDC52C8B04EA009403F3 /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Profile;
+			path = View;
 			sourceTree = "<group>";
 		};
 		C8E5DDC62C8B04F8009403F3 /* Drivers Screens */ = {
@@ -136,6 +216,7 @@
 			children = (
 				C8E5DDC82C8B0515009403F3 /* Profile Tab View */,
 				C8E5DDC72C8B050B009403F3 /* Home Tab View */,
+				C844DF492C97056D00188258 /* DriverprofileViewModel.swift */,
 			);
 			path = "Drivers Screens";
 			sourceTree = "<group>";
@@ -153,6 +234,7 @@
 		C8E5DDC82C8B0515009403F3 /* Profile Tab View */ = {
 			isa = PBXGroup;
 			children = (
+				C844DF102C939B3A00188258 /* Profile.swift */,
 			);
 			path = "Profile Tab View";
 			sourceTree = "<group>";
@@ -173,6 +255,9 @@
 			dependencies = (
 			);
 			name = Napix;
+			packageProductDependencies = (
+				C844DF5B2C9B5CE900188258 /* SocketIO */,
+			);
 			productName = Napix;
 			productReference = C8E5DDB12C8B01A5009403F3 /* Napix.app */;
 			productType = "com.apple.product-type.application";
@@ -202,7 +287,7 @@
 			);
 			mainGroup = C8E5DDA82C8B01A5009403F3;
 			packageReferences = (
-				C89900D32C8B509B00AFEC4B /* XCRemoteSwiftPackageReference "Gifu" */,
+				C844DF5A2C9B5CE900188258 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */,
 			);
 			productRefGroup = C8E5DDB22C8B01A5009403F3 /* Products */;
 			projectDirPath = "";
@@ -230,16 +315,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C844DF672C9C5E7E00188258 /* Messagesviewmodal.swift in Sources */,
+				C844DF4E2C97EC5D00188258 /* AlertBoardViewModal.swift in Sources */,
+				C844DF4A2C97056D00188258 /* DriverprofileViewModel.swift in Sources */,
+				C844DF462C95E29B00188258 /* Vehicle.swift in Sources */,
 				C8E5DDCC2C8B057E009403F3 /* LogisticMainTabView.swift in Sources */,
+				C844DF112C939B3A00188258 /* Profile.swift in Sources */,
 				C8E5DDCA2C8B0565009403F3 /* DriverMainTabView.swift in Sources */,
 				C89900E12C8B5ABC00AFEC4B /* FDModel.mlmodel in Sources */,
+				C844DF5E2C9B62E000188258 /* Socket.swift in Sources */,
 				C89900DF2C8B5AAC00AFEC4B /* DDModel.mlmodel in Sources */,
+				C844DF442C95D4A500188258 /* SignupView.swift in Sources */,
 				C89900E82C8B73B100AFEC4B /* Vechiclewise.swift in Sources */,
 				C8E5DDB52C8B01A5009403F3 /* NapixApp.swift in Sources */,
 				C89900E62C8B6E1D00AFEC4B /* AlertBoardView.swift in Sources */,
 				C8E5DDCE2C8B06CD009403F3 /* monitorMeView.swift in Sources */,
+				C844DF502C9814DF00188258 /* AddAlertViewModal.swift in Sources */,
+				C844DF142C958ABB00188258 /* LogsticsHead.swift in Sources */,
 				C8E5DDD02C8B0D1D009403F3 /* CameraMonitoringView.swift in Sources */,
+				C844DF0F2C9397F200188258 /* ProfileView.swift in Sources */,
+				C844DF402C95D3F500188258 /* SigninViewModel.swift in Sources */,
+				C844DF172C958B0D00188258 /* Network.swift in Sources */,
+				C844DF422C95D41F00188258 /* SigninView.swift in Sources */,
 				C89900E32C8B6A0700AFEC4B /* CameraView.swift in Sources */,
+				C844DF602C9B631F00188258 /* Viewmodel.swift in Sources */,
+				C844DF622C9B636B00188258 /* Scoketview.swift in Sources */,
+				C844DF482C95E66C00188258 /* ProfileviewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +474,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Napix/Preview Content\"";
+				DEVELOPMENT_TEAM = 9KAAN4P22C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Napix/Info.plist;
@@ -381,6 +483,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -402,6 +505,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Napix/Preview Content\"";
+				DEVELOPMENT_TEAM = 9KAAN4P22C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Napix/Info.plist;
@@ -410,6 +514,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -447,15 +552,23 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		C89900D32C8B509B00AFEC4B /* XCRemoteSwiftPackageReference "Gifu" */ = {
+		C844DF5A2C9B5CE900188258 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kaishin/Gifu.git";
+			repositoryURL = "https://github.com/socketio/socket.io-client-swift.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.6.1;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C844DF5B2C9B5CE900188258 /* SocketIO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C844DF5A2C9B5CE900188258 /* XCRemoteSwiftPackageReference "socket.io-client-swift" */;
+			productName = SocketIO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C8E5DDA92C8B01A5009403F3 /* Project object */;
 }

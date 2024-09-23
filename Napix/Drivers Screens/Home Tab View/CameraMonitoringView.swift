@@ -12,6 +12,8 @@ struct CameraMonitoringView: View {
         ZStack {
             NavigationStack {
                 VStack {
+                    Spacer() // Add space to push the content down
+                    
                     if isSplashView {
                         // Splash View
                         VStack {
@@ -28,24 +30,29 @@ struct CameraMonitoringView: View {
                         }
                     } else {
                         // Camera View
-                        CameraView()
+                        ContentView()
                             .frame(width: 300, height: 300)
                             .cornerRadius(10)
                             .transition(.opacity)
                         Text("Camera open")
                     }
 
+                    Spacer() // Add space before the button
+                        .frame(height: 130)
+                    // "End Monitoring" Button, styled to match "Start Monitoring"
                     Button(action: {
                         showAlert = true
                     }) {
                         Text("End Monitoring")
                             .font(.headline)
                             .foregroundColor(.white)
-                            .frame(width: 200, height: 50)
+                            .frame(maxWidth: .infinity, maxHeight: 50)
                             .background(Color.red)
-                            .cornerRadius(10)
+                            .cornerRadius(12)
+                            .padding(.horizontal, 40) // Same padding as in MonitorMeView
+                            .padding(.bottom, 40) // Increase bottom padding to push the button lower
                     }
-                    .padding(.top, 20)
+                    .buttonStyle(PlainButtonStyle())
                     .alert(isPresented: $showAlert) {
                         Alert(
                             title: Text("Confirm End Monitoring"),
@@ -56,11 +63,13 @@ struct CameraMonitoringView: View {
                             secondaryButton: .cancel(Text("Cancel"))
                         )
                     }
+
+                    Spacer() // Add space below the button
                 }
                 .navigationTitle("Monitoring")
                 .navigationBarBackButtonHidden(true) // Hide back button
                 .navigationBarHidden(isBlackScreen) // Conditionally hide navigation bar
-                
+
                 // Toolbar items
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
@@ -74,7 +83,7 @@ struct CameraMonitoringView: View {
                                 .foregroundColor(.blue)
                         }
                     }
-                    
+
                     ToolbarItem(placement: .navigationBarTrailing) {
                         Button(action: {
                             withAnimation {
@@ -87,7 +96,7 @@ struct CameraMonitoringView: View {
                     }
                 }
             }
-            
+
             if isBlackScreen {
                 Color.black
                     .edgesIgnoringSafeArea(.all)
@@ -105,14 +114,11 @@ struct CameraMonitoringView: View {
                     .transition(.opacity)
             }
         }
-        .navigationBarBackButtonHidden(true) // Ensure back button is hidden on the black screen
-        .navigationBarHidden(isBlackScreen) // Hide navigation bar when black screen is active
+        .navigationBarBackButtonHidden(true)
+        .navigationBarHidden(isBlackScreen)
     }
 }
 
-
-struct CameraMonitoringView_Previews: PreviewProvider {
-    static var previews: some View {
-        CameraMonitoringView()
-    }
+#Preview {
+    CameraMonitoringView()
 }
